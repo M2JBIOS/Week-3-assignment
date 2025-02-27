@@ -1,47 +1,39 @@
-##### ASSIGNMENT STARTS HERE #####
-
-
-#%%
-# First Assignment
-'''
-1: Please create a program which inputs two years and outputs the years as well as the difference
-between them!
-
-Your output should look like:
-
-Year 1: 2025
-Year 2: 2028
-Difference: 3
-'''
-
-
-#%%
-# Second Assignment
+#%% Intro
 
 '''
-2: Please create a program which collects an input as fahrenheit and outputs the 
-temperature in celsius
+Please The following code SHOULD run and FINISH...but doesn't
 
-Your output should look like:
+This is an example of an infinite loop.  This is NOT a good thing to 
+have in your code.  It will cause your code to run forever and never
+finish.  This is a problem because it will cause your code to use up
+all of the resources on your computer and cause it to crash.
 
-Fahrenheit: 25
-Celsius: -3.89
+Please fix the code so that it runs and finishes.
+
+You should only need to change two lines of code to fix this problem!
 '''
 
 
 #%%
-# Third Assignment
+# Code
 
-'''
+finished_program = False
 
-3: Please create a program which collects an input as US Dollars and converts the output to Euros 
-given the exchange rate on 1/19/25 as 1 USD = 0.97 Euro
+# Count to 10 Program
+  
+i = 0
 
-Your output should look like:
-USD: 1
-EU: 0.97
+while finished_program == False:
 
-'''
+    
+
+    print(f'Testing i = {i}')
+    
+    if i == 10:
+        finished_program = True
+
+    i += 1
 
 
-##### ASSIGNMENT ENDS HERE #####
+
+
